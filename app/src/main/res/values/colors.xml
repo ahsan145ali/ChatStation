@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#813fd7</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#813fd7</color>  // affects cursor
+    <color name="colorText">#464646</color>
+    <color name="coloredittext">#f5f5f5</color>
+    <color name="colorWhite">#fff</color>
+    <color name="coloritemleft">#C3C0C0</color>
+    <color name="coloritemright">#813fd7</color>
+</resources>

@@ -1,0 +1,139 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="232dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <EditText
+            android:id="@+id/enter_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/coloredittext"
+            android:ems="10"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:hint="Enter Name"
+
+            android:padding="12dp"
+            android:textColor="@color/colorText"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="7dp"></EditText>
+
+        <EditText
+            android:id="@+id/enter_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/coloredittext"
+            android:ems="10"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:hint="Enter Email"
+
+            android:padding="12dp"
+            android:textColor="@color/colorText"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="114dp"></EditText>
+
+        <EditText
+            android:id="@+id/enter_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/coloredittext"
+            android:ems="10"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:hint="Enter Password"
+
+            android:padding="12dp"
+            android:textColor="@color/colorText"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="200dp"></EditText>
+
+        <EditText
+            android:id="@+id/enter_confirmpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/coloredittext"
+            android:ems="10"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:hint="Confrim Password"
+
+            android:padding="12dp"
+            android:textColor="@color/colorText"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="271dp"></EditText>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="172dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginBottom="7dp"
+
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center_horizontal"
+        android:text="SignUp"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="51dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="SignUp"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+
+        app:layout_constraintEnd_toStartOf="@+id/signin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"></Button>
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="SignIn"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/signup"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+    </Button>
+</androidx.constraintlayout.widget.ConstraintLayout>
